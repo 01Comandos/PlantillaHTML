@@ -1,0 +1,334 @@
+/*
+	MEDIA QUERIES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+/*@media (max-width: 1600px)*/
+	/**********************
+		INDEX
+    **********************/
+	
+    	
+@media (max-width: 1400px)
+	/**********************
+		HEADER
+    **********************/
+	.header
+		&-main
+			padding 0.5em 8%
+
+	/**********************
+		FOOTER
+    **********************/    	
+	.footerContainer
+		&-item
+			&:last-child
+				padding 0.5em 10%
+    		
+@media (max-width: 1297px)
+	/**********************
+		HEADER
+    **********************/
+	.header
+		&-item
+			width 60em
+		
+		&-main
+			padding 0.5em 2.5em
+    	
+	/**********************
+		INDEX
+    **********************/
+	.b-container
+		width 60em
+		&-medical
+			.item
+				a
+					display block
+					text-align center
+					figure
+						width 4em
+						margin 0 auto
+					.dates
+						&-item
+							flex-center()
+		
+	.generalTips
+		.pestana1
+			top -4em
+		/.pestana2
+			bottom -5em
+			
+	/**********************
+		MEDICOS
+    **********************/
+	.filter
+		&-container
+			width 60em
+			
+	/**********************
+		MEDICOS-DETALLE
+    **********************/
+	.reserve				
+		.b-container-medical
+			width 100%
+
+	
+	/**********************
+		FOOTER
+    **********************/    	
+	.footerContainer
+		&-item
+			&:last-child
+				padding 0.5em 3em
+				
+
+// Large devices (desktops, 62em and up)
+@media (max-width: 991px)
+	/**********************
+		HEADER
+    **********************/
+	.header
+		&-item
+			width 90%
+		&-main
+			#nav-icon3
+				display block
+				z-index 9
+			nav				
+				background rgba(black, .7)
+				position fixed
+				z-index 8
+				top 0
+				right 0
+				height 100vh
+				width 100vw	
+				margin 0	
+				ul
+					background rgba(morado, .9)
+					width 12em
+					height 100vh
+					margin 0 0 0 auto !important
+					padding-top 10em
+					li
+						float none
+						display block
+						text-align center
+						a
+							padding 1em
+							width 90%
+							border-bottom 1px dashed white
+			#menu
+				display none
+
+
+	/**********************
+       INDEX
+    **********************/
+	.zoneMain
+		background-image url("../img/banner-clinica991.png")
+		margin-bottom 14em
+		&-title
+			text-align center
+			width 90%
+			&-link
+				flex-center()
+				
+		&-questions
+			margin-left 0
+			margin-top 2.5em			
+				
+	.b-container
+		width 90%
+		&-item
+			width 80%
+			margin 0 auto
+		&-news
+			flex-center()
+			.item
+				width 40%
+				margin-right 1em
+				&:nth-child(2n)
+					margin-right 0
+					
+		&-textContact
+			.contactGeneral
+				.item
+					width 100%
+					text-align center
+					margin 1em 0
+					&:nth-child(1)
+						text-align center
+						margin-right 0em
+						margin-left 0em
+						
+					&-option
+						flex-center()
+					
+	.generalTips
+		/.pestana2
+			bottom -4em
+			
+
+	/**********************
+		FOOTER
+    **********************/    	
+	.footerContainer
+		&-item
+			flex-center()
+			ul
+				display none
+
+
+
+// Medium devices (tablets, 48em and up)
+@media (max-width: 769px)
+	/**********************
+        LOGIN
+    **********************/			
+	body
+		font-size 14px
+		
+	/**********************
+    	HEADER
+    **********************/
+
+		
+	
+	/**********************
+        INDEX
+    **********************/
+	.zoneMain
+		margin-bottom 17em			
+		&-questions
+			height 39em
+
+    .b-container
+		&-medical
+			.item
+				width 45%
+
+
+@media (max-width: 630px)
+	/**********************
+		HEADER
+    **********************/
+	.header
+		.optionsSocial
+			width 100%
+			margin 0
+			flex-center()
+				
+		&-main
+			nav	
+				ul
+					padding-top 15.5em
+
+	/**********************
+    	INDEX
+    **********************/			
+	body
+		font-size 14px
+		
+	.zoneMain
+		margin-bottom 20em
+		
+	.b-container
+		width 95%
+		&-item
+			width 95%
+		&-news
+			.item
+				width 48%
+				
+	.generalTips
+		.pestana1
+			top -3em
+			/.img-1
+				display none
+			/.img-2
+				display block
+		/.pestana2
+			bottom -2.5em
+	
+	.formContact
+		form
+			width 90%
+
+							
+	/**********************
+		FOOTER
+    **********************/    	
+	.footerContainer
+		text-align center	
+				
+@media (max-width: 470px)
+	/**********************
+    	INDEX
+    **********************/
+	.b-container
+		&-item
+			width 100%
+			li
+				margin-bottom 1em
+		&-news
+			.item
+				width 80%
+				margin-right 0
+				
+	.generalTips
+		.pestana1
+			top -2em
+
+
+// Small devices (landscape phones, 415px and up)
+@media (max-width: 415px)
+	body
+		font-size 11px
+
+	/**********************
+		HEADER
+    **********************/
+	.header				
+		&-main
+			nav	
+				ul
+					width 14em
+				
+	/**********************
+        INDEX
+    **********************/
+	.zoneMain
+		background-image url("../img/banner-clinica560.png")
+		margin-bottom 25em
+				
+		&-questions
+			width 90%
+			height 44em
+	.b-container
+		&-medical
+			.item
+				width 100%
+				a
+					flex-flexStart()
+					text-align left
+					figure
+						margin 0
+					.dates
+						&-item
+							flex-flexStart()
+							
+	/**********************
+		MEDICOS
+    **********************/
+	.filter
+		&-container
+			flex-center()
+			.itemForm
+			.hours
+				width 90%
+			
+			.itemForm
+				&:last-child
+					width 100%
+					text-align center
+					margin-top 1.8em
