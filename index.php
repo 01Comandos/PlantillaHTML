@@ -30,61 +30,27 @@
 		</ul>
 	</section>
 	
-	<!--BENEFICIOS-->
+	<!--SOBRE NOSOTROS-->
 	<section class="b-container">
+		<!--TITULO DE LA SECCION-->
 		<article class="b-container-title">
-			<h2>Conoce nuestros <strong>beneficios</strong>, pensados para tu <strong>comodidad</strong></h2>
-			<h4>Siempre pensamos en tu bienestar, por eso ponemos a tu disposición servicios que dinamicen tu tiempo</h4>
+			<figure>
+				<span class="icon-plantilla_travel"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>
+			</figure>
+			<h2>Es natural que te preguntes <strong>Sobre nosotros</strong></h2>
 		</article>
 
-		<!--SERVICIOS BENEFICOS-->
-		<ul class="b-container-item">
-			<!--CAMPAÑAS DE SALUD-->
-			<li>
-				<a href="#!">
-					<figure>
-						<span class="icon-ClinicaProvidencia_campanaSalud"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span></span>
-					</figure>
-					<p>Campañas de Salud</p>
-				</a>
-			</li>
-			<!--PROVICARD-->
-			<li>
-				<a href="#!">
-					<figure>
-						<span class="icon-ClinicaProvidencia_provicard"><span class="path1"></span><span class="path2"></span></span>
-					</figure>
-					<p>ProviCard</p>
-				</a>
-			</li>
-			<!--PROVIKIDS-->
-			<li>
-				<a href="#!">
-					<figure>
-						<span class="icon-ClinicaProvidencia_proviKids"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span></span>
-					</figure>
-					<p>ProviKids</p>
-				</a>
-			</li>
-			<!--DONACION DE SANGRE-->
-			<li>
-				<a href="#!">
-					<figure>
-						<span class="icon-ClinicaProvidencia_donacionSangre"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span></span>
-					</figure>
-					<p>Donación de Sangre</p>
-				</a>
-			</li>
-			<!--MADRE EXCLUSIVA-->
-			<li>
-				<a href="#!">
-					<figure>
-						<span class="icon-ClinicaProvidencia_madresExclusivas"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></span>
-					</figure>
-					<p>Madre Exclusiva</p>
-				</a>
-			</li>
-		</ul>
+		<!--TEXTO SOBRE NOSOTROS-->
+		<div class="textOurs">
+			<p id="textDetalle">
+				Somos un moderno Centro Médico orientado a brindar a nuestros pacientes servicios de nivel superior, satisfaciendo cada una de sus necesidades. Contamos con un equipo de profesionales altamente capacitados en cada especialidad que son 100% responsables  de cada procedimiento. Siempre estaremos presentes y dispuestos a solucionar cualquier inquietud que tenga tanto presencial, online por medio de nuestro portal, redes sociales o por nuestros números de teléfono 
+			</p>
+
+			<div class="viewMore">
+				<a href="#!" class="btn-return btn-text">leer más</a>
+			</div>
+		</div>
+
 	</section>
 
 	<!--TIPS MEDICOS-->

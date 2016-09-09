@@ -35,6 +35,11 @@
 					$("#form-contacto").fadeToggle('medium')
 				})
 
+				//DETALLES DEL PLAN PARA MOBILE
+			    $(".btn-text").click(function(){
+					$(this).parent().prev().css("height", "auto");
+				})
+
 	    	}
 	    );
 	</script>
