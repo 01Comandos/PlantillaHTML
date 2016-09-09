@@ -25,54 +25,6 @@
 				</div>
 			</div>
 		</article>
-
-		<!--FORMULARIO-->
-		<form action="" class="zoneMain-questions">
-			<!--TITULO-->
-			<div class="zoneMain-questions-title">
-				<p>Falta muy poco</p>
-				<h4>¡Confirma tu Cita!</h4>
-			</div>
-
-			<!--FORMULARIO-->
-			<!--NOMBRES-->
-			<div class="itemForm input-field">
-				<input id="name" type="text" class="validate">
-          		<label for="name">Nombre del Médico</label>
-			</div>
-
-			<!--ESPECIALIDAD MEDICA-->
-			<div class="itemForm input-field">
-				<select>
-					<option value="" disabled selected>Especialidad Médica</option>
-					<option value="1">Option 1</option>
-					<option value="2">Option 2</option>
-					<option value="3">Option 3</option>
-				</select>
-			</div>
-
-			<!--CALENDARIO-->
-			<div class="itemForm input-field">
-				<input type="date" class="datepicker" id="calendario">
-          		<label for="calendario">Elige el día de tu cita</label>
-			</div>
-
-			<!--HORARIO-->
-			<div class="hours">
-				<h4>¿En qué horario te gustaría?</h4>
-				<div class="btn-check active">
-					<button>Mañana</button>
-				</div>
-				<div class="btn-check">
-					<button>Tarde</button>
-				</div>
-			</div>
-
-			<!--BTN SUBMIT-->
-			<div class="itemForm">
-				<button class="btn-main" type="submit">Continuar</button>
-			</div>
-		</form>
 	</section>
 	
 	<!--BENEFICIOS-->
