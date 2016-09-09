@@ -3,6 +3,7 @@
     <script src="js/materialize.min.js"></script>
     <!-- complementos -->
 	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
 
 	<!--SCRIPT PROPIOS-->
 	<script>		
@@ -11,11 +12,13 @@
 	    		//INICIALIZAR NICESCROLL
 	    		$("html").niceScroll({cursorwidth:"12px" , zindex:"9999" , cursorborder:"0px" , cursorborderradius:"0px" , cursorcolor:"#90A4AE", background:"#CFD8DC", autohidemode:false});
 
+	    		//ACTIANDO RESPONSIVE SLIDER
+	    		$(".rslides").responsiveSlides();
+
 				//ICONO MOBILE
 				$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 					$(this).toggleClass('open');
 				});
-
 
 			    //MENU MOBILE
 			    $("#nav-icon3").click(function(){

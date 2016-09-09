@@ -6,25 +6,28 @@
 <body>
 	<?php include 'inc/header.php'; ?>
 	
-	<!--ZONA PRINCIPAL-->
-	<section class="zoneMain">
-		<!--MENSAJE-->
-		<article class="zoneMain-title">
-			<h1>Los profesionales más destacados</h1>
-			<h2>en el mejor sitio para tu salud</h2>
-			<!--BOTONES-->
-			<div class="zoneMain-title-link">
-				<!--REGISTRARME-->
-				<div class="item">
-					<a href="#!">registrarme</a>
-				</div>
+	<!--ZONA SLIDER PRINCIPAL-->
+	<section class="zone-main">
+		<!--DESKTOP-->
+		<ul class="rslides desktops">
+			<li><img src="img/banner-clinica.png" alt=""></li>
+			<li><img src="img/banner-clinica2.png" alt=""></li>
+			<li><img src="img/banner-clinica3.png" alt=""></li>
+		</ul>
 
-				<!--VER SERVICIOS-->
-				<div class="item">
-					<a href="#!">ver servicios</a>
-				</div>
-			</div>
-		</article>
+		<!--TABLET-->
+		<ul class="rslides tablet">
+			<li><img src="img/banner-clinica991-1.png" alt=""></li>
+			<li><img src="img/banner-clinica991-2.png" alt=""></li>
+			<li><img src="img/banner-clinica991-3.png" alt=""></li>
+		</ul>
+
+		<!--SMARTPHONE-->
+		<ul class="rslides smartphone">
+			<li><img src="img/banner-clinica560-1.png" alt=""></li>
+			<li><img src="img/banner-clinica560-2.png" alt=""></li>
+			<li><img src="img/banner-clinica560-3.png" alt=""></li>
+		</ul>
 	</section>
 	
 	<!--BENEFICIOS-->

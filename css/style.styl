@@ -15,6 +15,7 @@
 -------------------------------------------------------------------------*/
 @import 'nib'
 @import 'style-icon.styl'
+@import 'rslides.styl'
 
 
 @font-face 
@@ -381,55 +382,10 @@ textarea
 	INDEX
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
-.zoneMain
-	background-color white
-	background-image url("../img/banner-clinica.png")
-	background-position top
-	background-repeat no-repeat
-	background-size cover
-	height 44em
-	position relative
-	padding-top 13em
-	margin-bottom 4em
-	flex-center()
-	&-title
-		text-align left
-		color white
-		h1
-			font-size 2.1em
-			font-family 'Cabin-Bold',sans-serif
-		h2
-			font-size 1.8em
-			font-family 'Cabin-Medium',sans-serif
-			font-style italic
-		&-link
-			flex-flexStart()
-			.item
-				margin-top 0.7em
-				a
-					display inline-block
-					font-family 'Cabin-Medium',sans-serif
-					font-size 1em
-					text-transform uppercase
-					padding 0.5em 0.8em
-					transition .2s linear
-				&:nth-child(1)
-					margin-right 0.5em
-					a
-						color azul-corporativo
-						border 1px solid white
-						background white
-						&:hover
-							background azul-corporativo
-							color white
-							border 1px solid azul-corporativo
-				&:nth-child(2)
-					a
-						color white
-						border 1px solid white
-						&:hover
-							background white
-							color azul-corporativo
+.zone-main
+	.tablet
+	.smartphone
+		display none
 
 .b-container
 	width 70em
@@ -598,6 +554,7 @@ textarea
 		height 25em
 		width 80%
 		margin 0 auto
+		
 .generalTips
 	background gris-claro
 	width 100%
