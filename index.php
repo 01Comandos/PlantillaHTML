@@ -125,6 +125,52 @@
 		</section>
 	</section>
 
+	<!--OPINIONES-->
+	<section class="b-container">
+		<!--TITULO DE LA SECCION-->
+		<article class="b-container-title">
+			<figure>
+				<span class="icon-plantilla_stars"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>
+			</figure>
+			<h2><strong>Opiniones</strong> de nuestros clientes</h2>
+		</article>
+
+		<!--OPINIONES-->
+		<article class="comments">
+			<!--OPINION 1-->
+			<div class="comments-item">
+				<figure class="avatar">
+					<img src="img/comandos-avatar.jpg" alt="">
+				</figure>
+				<div class="datos">
+					<figure>
+						<span class="icon-plantilla_quotes"></span>
+					</figure>
+					<p>¡Servicio genial! Fui por un tratamiento facial y quedé enamorado del servicio prestado tanto por la empresa como por el profesional. Sin dudas volveré a ir.</p>
+					<div class="link">
+						<a href="#!">@01Comandos</a>
+					</div>
+				</div>
+			</div>
+
+			<!--OPINION 2-->
+			<div class="comments-item">
+				<figure class="avatar">
+					<img src="img/modelo2.jpg" alt="">
+				</figure>
+				<div class="datos">
+					<figure>
+						<span class="icon-plantilla_quotes"></span>
+					</figure>
+					<p>Llevé a mi esposa por un servicio en oferta de pasajes para embarazada, ahora se siente mucho mejor y estamos muy contentos con el servicio :)</p>
+					<div class="link">
+						<a href="#!">@sebastian_fernandez</a>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
 	<!--INTRODUCCION AL CONTACTO-->
 	<section class="generalTips">
 		<!--PESTAÑA 1-->
@@ -267,12 +313,7 @@
 				<button class="btn-contacto" type="submit">Enviar</button>
 			</div>
 		</form>
-	</article>
-
-
-		
-
-	
+	</article>	
 
   	<?php include 'inc/footer.php'; ?>
   	<?php include 'inc/footer_common.php'; ?>
