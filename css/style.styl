@@ -447,22 +447,31 @@ textarea
 		.item
 			width 30%
 			margin-bottom 2em
+			border-radius 8px
 			a
 				display inline-block
 				border 1px solid gris-new
 				border-radius 8px
 				color gris-texto2
 				transition .2s linear
+				position relative
 				figure
 					border-radius 8px 8px 0 0
 					height 12em
-					background red
+					overflow hidden
 					img
 						width 100%
-						height 100%
 						border-radius 8px 8px 0 0
+				.price
+					position absolute
+					top 0
+					right 0
+					background verde-corporativo
+					color white
+					padding 0.3em 0.8em
+					border-radius 0 8px 0 0
 				.dates
-					padding 1.5em 1em 1em
+					padding 1.5em 1em 2em 1em
 					background white
 					h2
 						text-align center
@@ -470,12 +479,15 @@ textarea
 					p
 						padding-top 1em
 						line-height 1.4em
-						background: -webkit-linear-gradient(black,white);
-						
-						-webkit-background-clip: text;
-						-webkit-text-fill-color: transparent;
 						color gris-texto
 						font-family 'Lato-Regular',sans-serif
+					span
+						color fucsia
+						font-size 1em
+						font-family 'Cabin-Medium',sans-serif
+						display block
+						text-align center
+						margin-top 1.5em
 				&:hover
 					sombra()
 		/.viewMore
@@ -484,40 +496,6 @@ textarea
 			text-align center
 			a
 				color black
-	
-	&-medical
-		flex-between()
-		.item
-			width 30%
-			margin-bottom 1.5em
-			a
-				display inline-block
-				border 1px solid #e0e0e0
-				padding 1.5em
-				transition 0.2s linear
-				color gris-texto3
-				border-radius 8px
-				flex-flexStart()
-				figure
-					width 4em
-					img
-						width 100%
-						border-radius 50%
-				.dates
-					padding 0.3em 0 0 1em
-					h3
-						font-family 'Lato-Regular',sans-serif
-						font-size 1.2em
-					h4
-						font-size 1em
-						font-family 'Cabin-Regular',sans-serif
-					&-item
-						flex-flexStart()
-						p
-							&:nth-child(1)
-								margin-right 0.5em
-				&:hover
-					sombra()
 					
 	&-textContact
 		.optionsSocial
@@ -597,7 +575,23 @@ textarea
 		bottom -7em
 		img
 			width 100%
+
+.offers
+	background-color gris-login
+	background-image url("../img/background-ofertas.png")
+	background-position center
+	background-repeat no-repeat
+	background-attachment fixed
+	background-size cover
+	height 100%
+	width 100%
+	.b-container
+		&-title
+			h2
+			h4
+				color white !important
 	
+
 .formContact
 	background azul-3		
 	padding 3em 2em 7em 2em

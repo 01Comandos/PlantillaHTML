@@ -12,6 +12,9 @@
 	    		//INICIALIZAR NICESCROLL
 	    		$("html").niceScroll({cursorwidth:"12px" , zindex:"9999" , cursorborder:"0px" , cursorborderradius:"0px" , cursorcolor:"#90A4AE", background:"#CFD8DC", autohidemode:false});
 
+	    		//SLIDE IMAGENES GALERIA
+				$('.carousel.carousel-slider').carousel({full_width: true});
+
 	    		//ACTIANDO RESPONSIVE SLIDER
 	    		$(".rslides").responsiveSlides();
 
@@ -39,6 +42,8 @@
 			    $(".btn-text").click(function(){
 					$(this).parent().prev().css("height", "auto");
 				})
+
+
 
 	    	}
 	    );

@@ -50,78 +50,78 @@
 				<a href="#!" class="btn-return btn-text">leer más</a>
 			</div>
 		</div>
-
 	</section>
 
-	<!--TIPS MEDICOS-->
-	<section class="generalTips">
-		<!--PESTAÑA 1-->
-		<section class="pestana1">
-			<img src="img/pestana1.png" alt="" class="img-1">
-			<img src="img/pestana1-993.png" alt="" class="img-2">
-		</section>
+	<!--GALERIA IMAGENES-->
+	
 
+	<!--OFERTAS-->
+	<section class="generalTips offers">
 		<section class="b-container">
 			<article class="b-container-title">
 				<figure>
-					<span class="icon-ClinicaProvidencia_fitness"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span></span>
+					<span class="icon-plantilla_wallet"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span></span>
 				</figure>
-				<h2>Tips <strong>Médicos</strong></h2>
-				<h4>¡Nos preocupa tu bienestar! Toma acciones preventivas con nuestros <strong>tips</strong></h4>
+				<h2>Nuestras Ofertas</h2>
+				<h4>¡Nos preocupa tu bienestar! revisa nuestros descuentos recientes</h4>
 			</article>
 
-			<!--NOTICIAS-->
+			<!--OFERTAS-->
 			<article class="b-container-news">
-				<!--NOTICIA 1-->
+				<!--OFERTA 1-->
 				<div class="item">
 					<a href="#!">
 						<figure>
-							<img src="img/noticia1.jpg" alt="">
+							<img src="img/oferta1.png" alt="">
 						</figure>
+						<div class="price">
+							<p>$150,00</p>
+						</div>
 						<div class="dates">
-							<h2>El vino, excelente digestivo</h2>
-							<p>El vino es una bebida obtenida de la uva mediante la fermentación alcohólica de su mosto o zumo. La fermentación se produce por la acción metabólica de levadu</p>
+							<h2>¡Luce radiante este Verano!</h2>
+							<p>Paquete VERANO BEAU:
+								<br>- Evaluación Inicial
+								<br>- 5 sesiones lipolaser
+								<br>- 5 sesiones de masaje reductor
+							</p>
+							<span>Hasta el 10 de Septiembre de 2016</span>
 						</div>
 					</a>
 				</div>
 
-				<!--NOTICIA 2-->
+				<!--OFERTA 2-->
 				<div class="item">
 					<a href="#!">
 						<figure>
-							<img src="img/noticia2.jpg" alt="">
+							<img src="img/oferta2.png" alt="">
 						</figure>
+						<div class="price">
+							<p>$150,00</p>
+						</div>
 						<div class="dates">
-							<h2>El vino, excelente digestivo</h2>
-							<p>El vino es una bebida obtenida de la uva mediante la fermentación alcohólica de su mosto o zumo. La fermentación se produce por la acción metabólica de levadu</p>
+							<h2>Malla Reductora</h2>
+							<p>Pierde hasta 10 kilos en 1 mes. Es un tratamiento no invasivo, siendo una alternativa segura sin cirugía. Incluye revisión médica semanal y sesiones reductoras.</p>
+							<span>Hasta el 10 de Septiembre de 2016</span>
 						</div>
 					</a>
 				</div>
 
-				<!--NOTICIA 3-->
+				<!--OFERTA 3-->
 				<div class="item">
 					<a href="#!">
 						<figure>
-							<img src="img/noticia3.jpg" alt="">
+							<img src="img/oferta3.png" alt="">
 						</figure>
+						<div class="price">
+							<p>$150,00</p>
+						</div>
 						<div class="dates">
-							<h2>El vino, excelente digestivo</h2>
-							<p>El vino es una bebida obtenida de la uva mediante la fermentación alcohólica de su mosto o zumo. La fermentación se produce por la acción metabólica de levadu</p>
+							<h2>Limpieza de cutis</h2>
+							<p>¡Luce esplendida este verano! Te ofrecemos un expectacular limpieza de cutis para que impresiones a todos por igual.</p>
+							<span>Hasta el 10 de Septiembre de 2016</span>
 						</div>
 					</a>
 				</div>
-
-				<!--VER MAS-->
-				<div class="viewMore">
-					<a href="#!" class="btn-return">ver más</a>
-				</div>
-			</article>
-		</section>
-
-		<!--PESTAÑA 2-->
-		<section class="pestana2">
-			<img src="img/pestana2.png" alt=""  class="img-1">
-			<img src="img/pestana2-993.png" alt="" class="img-2">
 		</section>
 	</section>
 
