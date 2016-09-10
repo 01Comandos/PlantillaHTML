@@ -55,25 +55,25 @@
 				</li>
 				<!-- SOBRE NOSOTROS -->
 				<li>
-					<a href="#!">
+					<a href="#us">
 						<p>Sobre Nosotros</p>
 					</a>
 				</li>
 				<!-- OFERTAS -->
 				<li>
-					<a href="#!">
+					<a href="#offers">
 						<p>Ofertas</p>
 					</a>
 				</li>
 				<!-- TESTIMONIOS -->
 				<li>
-					<a href="#!">
+					<a href="#comments">
 						<p>Testimonios</p>
 					</a>
 				</li>
 				<!-- CONTACTO -->
 				<li>
-					<a href="#!">
+					<a href="#contact">
 						<p>Contacto</p>
 					</a>
 				</li>

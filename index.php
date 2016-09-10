@@ -31,7 +31,7 @@
 	</section>
 	
 	<!--SOBRE NOSOTROS-->
-	<section class="b-container">
+	<section class="b-container" id="us">
 		<!--TITULO DE LA SECCION-->
 		<article class="b-container-title">
 			<figure>
@@ -53,10 +53,21 @@
 	</section>
 
 	<!--GALERIA IMAGENES-->
+	<section class="galery">
+		<div class="slider1">
+			<div class="slide"><img src="img/galeria1.jpg"></div>
+			<div class="slide"><img src="img/galeria2.jpg"></div>
+			<div class="slide"><img src="img/galeria3.jpg"></div>
+
+			<div class="slide"><img src="img/galeria4.jpg"></div>
+			<div class="slide"><img src="img/galeria5.jpg"></div>
+			<div class="slide"><img src="img/galeria6.jpg"></div>
+		</div>
+	</section>
 	
 
 	<!--OFERTAS-->
-	<section class="generalTips offers">
+	<section class="generalTips offers" id="offers">
 		<section class="b-container">
 			<article class="b-container-title">
 				<figure>
@@ -126,7 +137,7 @@
 	</section>
 
 	<!--OPINIONES-->
-	<section class="b-container">
+	<section class="b-container" id="comments">
 		<!--TITULO DE LA SECCION-->
 		<article class="b-container-title">
 			<figure>
@@ -172,7 +183,7 @@
 	</section>
 
 	<!--INTRODUCCION AL CONTACTO-->
-	<section class="generalTips">
+	<section class="generalTips" id="contact">
 		<!--PESTAÑA 1-->
 		<section class="pestana1">
 			<img src="img/pestana1.png" alt="" class="img-1">

@@ -4,6 +4,7 @@
     <!-- complementos -->
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
 
 	<!--SCRIPT PROPIOS-->
 	<script>		
@@ -41,6 +42,38 @@
 				//DETALLES DEL PLAN PARA MOBILE
 			    $(".btn-text").click(function(){
 					$(this).parent().prev().css("height", "auto");
+				})
+
+				//GALERIA CUERPO
+				$('.slider1').bxSlider({
+				    slideWidth: 200,
+				    minSlides: 2,
+				    maxSlides: 3,
+				    slideMargin: 10
+				});
+
+
+				//ANIMACION ENTRE ANCLAS
+		    	$(function(){
+					$('a[href*=#]').click(function() {
+					 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+					     && location.hostname == this.hostname) {
+
+					         var $target = $(this.hash);
+
+					         $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+					         if ($target.length) {
+
+					             var targetOffset = $target.offset().top;
+
+					             $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+					             return false;
+
+					        }
+					   }
+					});
 				})
 
 
