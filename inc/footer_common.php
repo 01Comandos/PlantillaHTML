@@ -46,7 +46,13 @@
 				    slideWidth: 200,
 				    minSlides: 2,
 				    maxSlides: 3,
-				    slideMargin: 10
+				    slideMargin: 10,
+
+				    prevSelector: '#slider-prev',
+				    prevText: "<img id='theImg' src='img/left.png'/>",
+
+				    nextSelector: '#slider-next',
+				    nextText: "<img id='theImg' src='img/right.png'/>"
 				});
 
 				//ir arriba

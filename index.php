@@ -63,6 +63,14 @@
 			<div class="slide"><img src="img/galeria5.jpg"></div>
 			<div class="slide"><img src="img/galeria6.jpg"></div>
 		</div>
+
+		<div class="left">
+			<span id="slider-prev"></span>
+		</div>
+
+		<div class="right">
+			<span id="slider-next"></span>
+		</div>
 	</section>
 	
 
