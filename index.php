@@ -324,7 +324,13 @@
 				<button class="btn-contacto" type="submit">Enviar</button>
 			</div>
 		</form>
-	</article>	
+	</article>
+
+	<div class="ir-arriba">
+		<div class="span">
+			<span class="icon-plantilla_left"></span>
+		</div>		
+	</div>
 
   	<?php include 'inc/footer.php'; ?>
   	<?php include 'inc/footer_common.php'; ?>

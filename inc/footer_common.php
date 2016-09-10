@@ -13,9 +13,6 @@
 	    		//INICIALIZAR NICESCROLL
 	    		$("html").niceScroll({cursorwidth:"12px" , zindex:"9999" , cursorborder:"0px" , cursorborderradius:"0px" , cursorcolor:"#90A4AE", background:"#CFD8DC", autohidemode:false});
 
-	    		//SLIDE IMAGENES GALERIA
-				$('.carousel.carousel-slider').carousel({full_width: true});
-
 	    		//ACTIANDO RESPONSIVE SLIDER
 	    		$(".rslides").responsiveSlides();
 
@@ -50,6 +47,21 @@
 				    minSlides: 2,
 				    maxSlides: 3,
 				    slideMargin: 10
+				});
+
+				//ir arriba
+				$('.ir-arriba').click(function(){
+					$('body, html').animate({
+						scrollTop: '0px'
+					}, 300);
+				});
+
+				$(window).scroll(function(){
+					if( $(this).scrollTop() > 0 ){
+						$('.ir-arriba').slideDown(300);
+					} else {
+						$('.ir-arriba').slideUp(300);
+					}
 				});
 
 
