@@ -10,6 +10,10 @@
     <!-- ESTILOS -->    
     <link href="css/materialize.min.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    
+    <!--THUMBNAIL-->
+
+
     <link href="css/style.css" rel="stylesheet">
     <!-- FIN DE ESTILOS -->
 

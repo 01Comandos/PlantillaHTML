@@ -89,7 +89,7 @@
 			<article class="b-container-news">
 				<!--OFERTA 1-->
 				<div class="item">
-					<a href="#!">
+					<a href="#oferta1">
 						<figure>
 							<img src="img/oferta1.png" alt="">
 						</figure>
@@ -155,39 +155,91 @@
 		</article>
 
 		<!--OPINIONES-->
-		<article class="comments">
-			<!--OPINION 1-->
-			<div class="comments-item">
-				<figure class="avatar">
-					<img src="img/comandos-avatar.jpg" alt="">
-				</figure>
-				<div class="datos">
-					<figure>
-						<span class="icon-plantilla_quotes"></span>
-					</figure>
-					<p>¡Servicio genial! Fui por un tratamiento facial y quedé enamorado del servicio prestado tanto por la empresa como por el profesional. Sin dudas volveré a ir.</p>
-					<div class="link">
-						<a href="#!">@01Comandos</a>
+		<section class="galery galery-comentarios">
+			<div class="slider2">
+
+				<div class="slide">
+					<!--OPINION 1-->
+					<div class="comments-item">
+						<figure class="avatar">
+							<img src="img/comandos-avatar.jpg" alt="">
+						</figure>
+						<div class="datos">
+							<figure>
+								<span class="icon-plantilla_quotes"></span>
+							</figure>
+							<p>¡Servicio genial! Fui por un tratamiento facial y quedé enamorado del servicio prestado tanto por la empresa como por el profesional. Sin dudas volveré a ir.</p>
+							<div class="link">
+								<a href="#!">@01Comandos</a>
+							</div>
+						</div>
 					</div>
 				</div>
+
+				<div class="slide">
+					<!--OPINION 2-->
+					<div class="comments-item">
+						<figure class="avatar">
+							<img src="img/modelo2.jpg" alt="">
+						</figure>
+						<div class="datos">
+							<figure>
+								<span class="icon-plantilla_quotes"></span>
+							</figure>
+							<p>Llevé a mi esposa por un servicio en oferta de pasajes para embarazada, ahora se siente mucho mejor y estamos muy contentos con el servicio :)</p>
+							<div class="link">
+								<a href="#!">@sebastian_fernandez</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<!--OPINION 1-->
+					<div class="comments-item">
+						<figure class="avatar">
+							<img src="img/comandos-avatar.jpg" alt="">
+						</figure>
+						<div class="datos">
+							<figure>
+								<span class="icon-plantilla_quotes"></span>
+							</figure>
+							<p>¡Servicio genial! Fui por un tratamiento facial y quedé enamorado del servicio prestado tanto por la empresa como por el profesional. Sin dudas volveré a ir.</p>
+							<div class="link">
+								<a href="#!">@01Comandos</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<!--OPINION 2-->
+					<div class="comments-item">
+						<figure class="avatar">
+							<img src="img/modelo2.jpg" alt="">
+						</figure>
+						<div class="datos">
+							<figure>
+								<span class="icon-plantilla_quotes"></span>
+							</figure>
+							<p>Llevé a mi esposa por un servicio en oferta de pasajes para embarazada, ahora se siente mucho mejor y estamos muy contentos con el servicio :)</p>
+							<div class="link">
+								<a href="#!">@sebastian_fernandez</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
-			<!--OPINION 2-->
-			<div class="comments-item">
-				<figure class="avatar">
-					<img src="img/modelo2.jpg" alt="">
-				</figure>
-				<div class="datos">
-					<figure>
-						<span class="icon-plantilla_quotes"></span>
-					</figure>
-					<p>Llevé a mi esposa por un servicio en oferta de pasajes para embarazada, ahora se siente mucho mejor y estamos muy contentos con el servicio :)</p>
-					<div class="link">
-						<a href="#!">@sebastian_fernandez</a>
-					</div>
-				</div>
+			<div class="left">
+				<span id="slider-prev"></span>
 			</div>
-		</article>
+
+			<div class="right">
+				<span id="slider-next"></span>
+			</div>
+		</section>		
 	</section>
 
 	<!--INTRODUCCION AL CONTACTO-->

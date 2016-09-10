@@ -6,6 +6,11 @@
 	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
 
+	<!--EFECTO SCROLL-->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.8/jquery.smoove.min.js"></script>
+	<script type="text/javascript" src="js/jquery.smoove.js"></script>
+	<script type="text/javascript" src="js/jquery-loader.js"></script>
+
 	<!--SCRIPT PROPIOS-->
 	<script>		
 	    $(document).ready(
@@ -43,10 +48,24 @@
 
 				//GALERIA CUERPO
 				$('.slider1').bxSlider({
-				    slideWidth: 200,
+				    slideWidth: 320,
 				    minSlides: 2,
 				    maxSlides: 3,
 				    slideMargin: 10,
+
+				    prevSelector: '#slider-prev',
+				    prevText: "<img id='theImg' src='img/left.png'/>",
+
+				    nextSelector: '#slider-next',
+				    nextText: "<img id='theImg' src='img/right.png'/>"
+				});
+
+				//GALERIA COMENTARIOS
+				$('.slider2').bxSlider({
+					slideWidth: 360,			    
+				    minSlides: 2,
+				    maxSlides: 2,				    
+  					slideMargin: 10,
 
 				    prevSelector: '#slider-prev',
 				    prevText: "<img id='theImg' src='img/left.png'/>",
@@ -93,6 +112,11 @@
 					   }
 					});
 				})
+
+				//ANIMACION SCROLL
+			    $(".b-container-title, .textOurs, .galery, .b-container-news, .b-container-textContact").smoove({
+			    	offset:'9%'
+			    });
 
 
 

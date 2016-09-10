@@ -495,35 +495,33 @@ textarea
 			margin-top 1em
 			text-align center
 			a
-				color black
-				
-	.comments
+				color black				
+	
+	/.comments-item
+		width 100%
 		flex-center()
-		&-item
-			width 45%
-			flex-center()
-			.avatar
-				width 4.5em
-				padding-top 3em
-				img
-					width 100%
-					border-radius 50%
-			.datos
-				width 70%
-				margin-left 1em
-				figure
-					font-size 3.5em
-					height 0.9em
-					color fucsia
-				.link
-					margin-top 0.5em
-					a
-						display inline-block
-						color gris-texto3
-						font-size 1.1em
-						font-family 'Coomeec',sans-serif
-						&:hover
-							color fucsia
+		.avatar
+			width 4.5em
+			padding-top 3em
+			img
+				width 100%
+				border-radius 50%
+		.datos
+			width 70%
+			margin-left 1em
+			figure
+				font-size 3.5em
+				height 0.9em
+				color fucsia
+			.link
+				margin-top 0.5em
+				a
+					display inline-block
+					color gris-texto3
+					font-size 1.1em
+					font-family 'Coomeec',sans-serif
+					&:hover
+						color fucsia
 					
 	&-textContact
 		.optionsSocial
@@ -583,7 +581,7 @@ textarea
 		.bx-viewport
 			height auto !important
 			.slide
-				width 18em !important
+				width 18em
 				
 	.left
 		position absolute
@@ -598,7 +596,11 @@ textarea
 		top 1.5em
 		color fucsia
 		font-size 2.5em
-	
+
+.galery-comentarios
+	width 54em
+	.slide
+		width 27em !important
 		
 .generalTips
 	background gris-claro
