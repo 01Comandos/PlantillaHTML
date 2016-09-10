@@ -4,25 +4,35 @@
 		<h6>Copyright © 2016 Empresa Plantilla</h6>
 		<!--MENU EN EL FOOTER-->
 		<ul>
-			<!--HOME-->
-			<li>
-				<a href="index.php">Inicio</a>
+			<!--INICIO-->
+			<li class="active">
+				<a href="index.php">
+					<p>Inicio</p>
+				</a>
 			</li>
-			<!--SOBRE NOSOTROS-->
+			<!-- SOBRE NOSOTROS -->
 			<li>
-				<a href="#!">Sobre Nosotros</a>
+				<a href="#us">
+					<p>Sobre Nosotros</p>
+				</a>
 			</li>
-			<!--OFERTAS-->
+			<!-- OFERTAS -->
 			<li>
-				<a href="#!">Ofertas</a>
+				<a href="#offers">
+					<p>Ofertas</p>
+				</a>
 			</li>
-			<!--TESTIMONIOS-->
+			<!-- TESTIMONIOS -->
 			<li>
-				<a href="#!">Testimonios</a>
+				<a href="#comments">
+					<p>Testimonios</p>
+				</a>
 			</li>
-			<!--CONTACTO-->
+			<!-- CONTACTO -->
 			<li>
-				<a href="#!">Contacto</a>
+				<a href="#contact">
+					<p>Contacto</p>
+				</a>
 			</li>
 		</ul>
 	</section>
