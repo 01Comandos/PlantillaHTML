@@ -116,7 +116,7 @@
 			<!--OFERTAS-->
 			<article class="b-container-news">
 				<!--OFERTA 1-->
-				<div class="item" id="lightgallery2">
+				<div class="item" id="lightgallery">
 					<a href="img/oferta1.png">
 						<figure>
 							<img src="img/oferta1.png" alt="">
