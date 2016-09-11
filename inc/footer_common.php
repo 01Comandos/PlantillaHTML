@@ -11,6 +11,14 @@
 	<script type="text/javascript" src="js/jquery.smoove.js"></script>
 	<script type="text/javascript" src="js/jquery-loader.js"></script>
 
+	<!--THUMBNAIL-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <script src="js/lightgallery.min.js"></script>
+    <!-- lightgallery plugins -->
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+
 	<!--SCRIPT PROPIOS-->
 	<script>		
 	    $(document).ready(
@@ -41,7 +49,7 @@
 					$("#form-contacto").fadeToggle('medium')
 				})
 
-				//DETALLES DEL PLAN PARA MOBILE
+				//BOTON SOBRE NOSOTROS
 			    $(".btn-text").click(function(){
 					$(this).parent().prev().css("height", "auto");
 				})
@@ -117,6 +125,9 @@
 			    $(".b-container-title, .textOurs, .galery, .b-container-news, .b-container-textContact").smoove({
 			    	offset:'9%'
 			    });
+
+			    //THUMBNAIL
+			    $("#lightgallery").lightGallery(); 
 
 
 

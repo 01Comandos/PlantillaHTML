@@ -88,8 +88,8 @@
 			<!--OFERTAS-->
 			<article class="b-container-news">
 				<!--OFERTA 1-->
-				<div class="item">
-					<a href="#oferta1">
+				<div class="item" id="lightgallery">
+					<a href="img/oferta1.png">
 						<figure>
 							<img src="img/oferta1.png" alt="">
 						</figure>
@@ -109,8 +109,8 @@
 				</div>
 
 				<!--OFERTA 2-->
-				<div class="item">
-					<a href="#!">
+				<div class="item" id="lightgallery">
+					<a href="img/oferta2.png">
 						<figure>
 							<img src="img/oferta2.png" alt="">
 						</figure>
@@ -126,8 +126,8 @@
 				</div>
 
 				<!--OFERTA 3-->
-				<div class="item">
-					<a href="#!">
+				<div class="item" id="lightgallery">
+					<a href="img/oferta3.png">
 						<figure>
 							<img src="img/oferta3.png" alt="">
 						</figure>
