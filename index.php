@@ -55,38 +55,38 @@
 	<!--GALERIA IMAGENES-->
 	<section class="galery">
 		<div class="slider1">
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria1.jpg">
+			<div class="slide">
+				<a href="img/galeria1.jpg" class="swipebox2">
 					<img src="img/galeria1.jpg">
 				</a>				
 			</div>
 
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria2.jpg">
+			<div class="slide">
+				<a href="img/galeria2.jpg" class="swipebox2">
 					<img src="img/galeria2.jpg">
 				</a>				
 			</div>
 
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria3.jpg">
+			<div class="slide">
+				<a href="img/galeria3.jpg" class="swipebox2">
 					<img src="img/galeria3.jpg">
 				</a>				
 			</div>
 
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria4.jpg">
+			<div class="slide">
+				<a href="img/galeria4.jpg" class="swipebox2">
 					<img src="img/galeria4.jpg">
 				</a>				
 			</div>
 
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria5.jpg">
+			<div class="slide">
+				<a href="img/galeria5.jpg" class="swipebox2">
 					<img src="img/galeria5.jpg">
 				</a>				
 			</div>
 
-			<div class="slide" id="lightgallery">
-				<a href="img/galeria6.jpg">
+			<div class="slide">
+				<a href="img/galeria6.jpg" class="swipebox2">
 					<img src="img/galeria6.jpg">
 				</a>				
 			</div>
@@ -116,8 +116,8 @@
 			<!--OFERTAS-->
 			<article class="b-container-news">
 				<!--OFERTA 1-->
-				<div class="item" id="lightgallery">
-					<a href="img/oferta1.png">
+				<div class="item">
+					<a href="img/oferta1.png" class="swipebox">
 						<figure>
 							<img src="img/oferta1.png" alt="">
 						</figure>
@@ -137,8 +137,8 @@
 				</div>
 
 				<!--OFERTA 2-->
-				<div class="item" id="lightgallery">
-					<a href="img/oferta2.png">
+				<div class="item">
+					<a href="img/oferta2.png" class="swipebox">
 						<figure>
 							<img src="img/oferta2.png" alt="">
 						</figure>
@@ -154,8 +154,8 @@
 				</div>
 
 				<!--OFERTA 3-->
-				<div class="item" id="lightgallery">
-					<a href="img/oferta3.png">
+				<div class="item">
+					<a href="img/oferta3.png" class="swipebox">
 						<figure>
 							<img src="img/oferta3.png" alt="">
 						</figure>

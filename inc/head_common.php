@@ -12,7 +12,7 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     
     <!--THUMBNAIL-->
-    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" /> 
+    <link rel="stylesheet" href="css/swipebox.css">
 
     <link href="css/style.css" rel="stylesheet">
     <!-- FIN DE ESTILOS -->
