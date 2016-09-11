@@ -127,7 +127,7 @@
 			    });
 
 			    //THUMBNAIL
-			    $("#lightgallery").lightGallery(); 
+			    $("#lightgallery").lightGallery();
 
 
 
