@@ -260,11 +260,11 @@
 			</div>
 
 			<div class="left">
-				<span id="slider-prev"></span>
+				<span id="slider-prev2"></span>
 			</div>
 
 			<div class="right">
-				<span id="slider-next"></span>
+				<span id="slider-next2"></span>
 			</div>
 		</section>		
 	</section>

@@ -75,10 +75,10 @@
 				    maxSlides: 2,				    
   					slideMargin: 10,
 
-				    prevSelector: '#slider-prev',
+				    prevSelector: '#slider-prev2',
 				    prevText: "<img id='theImg' src='img/left.png'/>",
 
-				    nextSelector: '#slider-next',
+				    nextSelector: '#slider-next2',
 				    nextText: "<img id='theImg' src='img/right.png'/>"
 				});
 
