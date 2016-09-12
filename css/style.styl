@@ -256,6 +256,13 @@ textarea
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 .header
+	position fixed
+	top 0
+	left 0
+	right 0
+	z-index 9
+	box-shadow 2px 2px 15px -2px rgba(128,128,128,1)
+	
 	/.optionsSocial
 		padding-top 0.5em
 		padding-right 15%
@@ -272,6 +279,7 @@ textarea
 	
 	&-main
 		padding 0.5em 15%
+		background white
 		flex-between()
 		.item
 			width 8em
@@ -383,6 +391,7 @@ textarea
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 .zone-main
+	margin-top 8em
 	.tablet
 	.smartphone
 		display none
@@ -390,7 +399,7 @@ textarea
 .b-container
 	width 70em
 	margin 0 auto
-	padding 3em 2em 7em 2em
+	padding 3em 2em
 	&-title
 		text-align left
 		margin-bottom 3em
@@ -575,6 +584,7 @@ textarea
 
 .galery-comentarios
 	width 54em
+	padding-bottom 5em
 	.slide
 		width 27em !important
 		
@@ -629,6 +639,9 @@ textarea
 .formContact
 	background azul-3		
 	padding 3em 2em 7em 2em
+	position relative
+	z-index 9
+	margin-top -1em
 	&-title
 		text-align center
 		margin-bottom 3em
@@ -663,23 +676,6 @@ textarea
 #googlemaps
 #form-contacto
 	display none
-	
-.ir-arriba
-	/*display none*/
-	padding 0.6em
-	font-size 1.3em
-	color gris-texto2
-	background gris-claro
-	text-align center
-	cursor pointer
-	position fixed
-	z-index 99
-	bottom 3em
-	right 20px
-	border 1px solid verde-corporativo
-	.span
-		font-size 1.7em
-		transform rotate(90deg)
 
 /*
 	FOOTER
